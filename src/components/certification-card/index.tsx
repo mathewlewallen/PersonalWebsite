@@ -1,6 +1,6 @@
 import React from 'react';
-import { SanitizedCertification } from '../../interfaces/sanitized-config';
-import { skeleton } from '../../utils';
+import { SanitizedCertification } from '@cc/interfaces/sanitized-config';
+import { skeleton } from '@cc/lib/utils';
 
 const ListItem = ({
   year,

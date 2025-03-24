@@ -1,6 +1,6 @@
 import React from 'react';
-import { SanitizedEducation } from '../../interfaces/sanitized-config';
-import { skeleton } from '../../utils';
+import { SanitizedEducation } from '@cc/interfaces/sanitized-config';
+import { skeleton } from '@cc/lib/utils';
 
 const ListItem = ({
   time,

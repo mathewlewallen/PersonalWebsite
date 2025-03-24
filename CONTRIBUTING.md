@@ -1,49 +1,76 @@
 # Contributing
 
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+👋 Hey there! Thanks for taking the time to contribute to **my personal website** – I appreciate your support.  
 
-If you have found an issue or would like to request a new feature, simply create a new issue detailing the request. We also welcome pull requests. See below for information on getting started with development and submitting pull requests.
+This site is built with [Next.js](https://nextjs.org), hosted on [Vercel](https://vercel.com), and serves as my professional portfolio.
 
-Please note we have a [code of conduct](https://github.com/mathewlewallen/gitprofile/blob/main/CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+While this is a personal project, I do welcome meaningful contributions such as fixing typos, improving accessibility, styling suggestions, or even helping refine the config structure.
 
-## Found an Issue?
+Please be kind, constructive, and respectful – this is a reflection of my work, and I appreciate thoughtful feedback.
 
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [GitHub Repository](https://github.com/mathewlewallen/gitprofile/issues/new). Even better you can submit a Pull Request
-with a fix.
+---
 
-## Submitting a Pull Request
+## 🐛 Found an Issue?
 
-1. Make sure that the contribution you want to make is explained or detailed in a GitHub issue! Find an [existing issue](https://github.com/mathewlewallen/gitprofile/issues) or [open a new one](https://github.com/mathewlewallen/gitprofile/issues/new).
-2. Once done, [fork the repository](https://github.com/mathewlewallen/gitprofile/fork) in your own GitHub account.
-3. [Create a new Git branch](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-and-deleting-branches-within-your-repository).
-4. Make the changes on your branch.
-5. [Submit the branch as a PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) pointing to the `main` branch of the main repository. <br>
-   We do not enforce a naming convention for the PRs, but **please use something descriptive of your changes**.
+If you spot a typo, broken link, or have a suggestion:
 
-## Development Workflow
+- Open an issue: [New Issue](https://github.com/mathewlewallen/personalwebsite/issues/new)
+- Or create a [pull request](https://github.com/mathewlewallen/PersonalWebsite/pulls) with a fix!
 
-### Install dependencies
+---
 
-```sh
-npm install
+## ✨ Submitting a Pull Request
+
+1. Fork the repository: [Fork](https://github.com/mathewlewallen/personalwebsite)
+2. Create a new branch (`git checkout -b fix/[your-feature]`)
+3. Make your changes (e.g. updating `config.ts`, styles, or content)
+4. Commit your work with a descriptive message
+5. Push to your fork (`git push origin fix/[your-feature]`)
+6. Open a PR against the `main` branch
+
+---
+
+## 🛠 Development Setup
+
+If you want to run the project locally before submitting a PR:
+
+### 1. Install dependencies
+
+```bash
+pnpm install
+
+pnpm dev
 ```
 
-### Run dev server
-
-```sh
-npm run dev
+This project uses [Biome]() and [Ultracite]() for linting.
+```bash
+pnpm lint # See errors
+pnpm format # Fix errors
 ```
 
-### Linter
+---
 
-Each PR should pass the linter to be accepted. To fix lint errors, run `pnpm format`.
+## 📬 Contact
 
-### Commit Message
+If you just want to say hi or connect:
+- [Website](https://mathewlewallen.com): https://www.mathewlewallen.com
+- [Email](mailto:mathewlewallen@gmail.com): mathewlewallen@gmail.com
 
-As minimal requirements, your commit message should:
+---
 
-- be capitalized
-- not finish by a dot or any other punctuation character (!,?)
-- start with a verb so that we can read your commit message this way: "This commit will ...", where "..." is the commit message.
-  e.g.: "Fix the home page button" or "Add support for dark mode"
+## 🙌 Support This Project
+
+[<img src="https://raw.githubusercontent.com/mathewlewallen/awesome-free-tools/main/.github/logo.svg" align="right" height="160" alt="Cloud Context Logo">](https://www.cloudcontext.cc)
+
+Maintaining **Open Source** repositories takes a lot of time and energy.  
+If you find this project helpful, please consider [donating to support me](https://github.com/mathewlewallen/awesome-free-tools/blob/main/.github/FUNDING.yml) ❤️ This could be [with a Coffee](https://buymeacoffee.com/mathewlewallen) or [more](https://liberapay.com/mathewlewallen).
+
+I’m just getting into Open Source — your encouragement, stars, and contributions mean the world.
+
+Together we can make this the most developer-friendly resources out there 💪
+
+---
+
+Thanks again for your help! 🙌
+
+— Mathew Lewallen

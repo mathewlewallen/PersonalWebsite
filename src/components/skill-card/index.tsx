@@ -1,4 +1,4 @@
-import { skeleton } from '../../utils';
+import { skeleton } from '@cc/lib/utils';
 
 const SkillCard = ({
   loading,

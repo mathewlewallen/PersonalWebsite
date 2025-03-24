@@ -23,12 +23,12 @@ import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
 import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
 import { SiResearchgate, SiX, SiUdemy } from 'react-icons/si';
-import { Profile } from '../../interfaces/profile';
+import { Profile } from '@cc/interfaces/profile';
 import {
   SanitizedGithub,
   SanitizedSocial,
-} from '../../interfaces/sanitized-config';
-import { skeleton } from '../../utils';
+} from '@cc/interfaces/sanitized-config';
+import { skeleton } from '@cc/lib/utils';
 
 type Props = {
   profile: Profile | null;

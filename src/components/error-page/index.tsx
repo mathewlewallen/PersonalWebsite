@@ -1,4 +1,4 @@
-import { CustomError } from '../../constants/errors';
+import { CustomError } from '@cc/constants/errors';
 
 /**
  * Render the ErrorPage component.

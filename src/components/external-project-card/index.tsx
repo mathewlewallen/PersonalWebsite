@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
-import LazyImage from '../lazy-image';
-import { ga, skeleton } from '../../utils';
-import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
+import LazyImage from '@cc/components/lazy-image';
+import { ga, skeleton } from '@cc/lib/utils';
+import { SanitizedExternalProject } from '@cc/interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
   externalProjects,

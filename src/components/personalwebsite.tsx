@@ -7,37 +7,31 @@ import {
   INVALID_CONFIG_ERROR,
   INVALID_GITHUB_USERNAME_ERROR,
   setTooManyRequestError,
-} from '../constants/errors';
-import { HelmetProvider } from 'react-helmet-async';
-import '../assets/index.css';
-import { getInitialTheme, getSanitizedConfig, setupHotjar } from '../utils';
-import { SanitizedConfig } from '../interfaces/sanitized-config';
+} from '@cc/constants/errors';
+import Head from 'next/head';
+import '../app/globals.css';
+import { getInitialTheme, getSanitizedConfig, setupHotjar } from '@cc/lib/utils';
+import { SanitizedConfig } from '@cc/interfaces/sanitized-config';
 import ErrorPage from './error-page';
 import HeadTagEditor from './head-tag-editor';
-import { DEFAULT_THEMES } from '../constants/default-themes';
+import { DEFAULT_THEMES } from '@cc/constants/default-themes';
 import ThemeChanger from './theme-changer';
-import { BG_COLOR } from '../constants';
+import { BG_COLOR } from '@cc/constants';
 import AvatarCard from './avatar-card';
-import { Profile } from '../interfaces/profile';
+import { Profile } from '@cc/interfaces/profile';
 import DetailsCard from './details-card';
 import SkillCard from './skill-card';
 import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
 import CertificationCard from './certification-card';
-import { GithubProject } from '../interfaces/github-project';
+import { GithubProject } from '@cc/interfaces/github-project';
 import GithubProjectCard from './github-project-card';
 import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
 
-/**
- * Renders the GitProfile component.
- *
- * @param {Object} config - the configuration object
- * @return {JSX.Element} the rendered GitProfile component
- */
-const GitProfile = ({ config }: { config: Config }) => {
+const personalwebsite = ({ config }: { config: Config }) => {
   const [sanitizedConfig] = useState<SanitizedConfig | Record<string, never>>(
     getSanitizedConfig(config),
   );
@@ -179,21 +173,25 @@ const GitProfile = ({ config }: { config: Config }) => {
     }
   };
 
+    if (error) {
+    return (
+      <>
+        <Head>
+          <title>{error.title}</title>
+        </Head>
+        <ErrorPage status={error.status} title={error.title} subTitle={error.subTitle} />
+      </>
+    );
+  }
+
   return (
-    <HelmetProvider>
-      <div className="fade-in h-screen">
-        {error ? (
-          <ErrorPage
-            status={error.status}
-            title={error.title}
-            subTitle={error.subTitle}
-          />
-        ) : (
           <>
+          <Head>
             <HeadTagEditor
               googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
               appliedTheme={theme}
             />
+            </Head>
             <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
                 <div className="col-span-1">
@@ -294,10 +292,7 @@ const GitProfile = ({ config }: { config: Config }) => {
               </footer>
             )}
           </>
-        )}
-      </div>
-    </HelmetProvider>
   );
 };
 
-export default GitProfile;
+export default personalwebsite;

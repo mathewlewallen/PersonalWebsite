@@ -360,7 +360,7 @@ interface Config {
   github: Github;
 
   /**
-   * Vite's base url
+   *  Base url
    */
   base?: string;
 

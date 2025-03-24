@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-import LazyImage from '../lazy-image';
+import LazyImage from '@cc/components/lazy-image';
 import { AiOutlineContainer } from 'react-icons/ai';
 import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
-import { SanitizedBlog } from '../../interfaces/sanitized-config';
-import { ga, skeleton } from '../../utils';
-import { Article } from '../../interfaces/article';
+import { SanitizedBlog } from '@cc/interfaces/sanitized-config';
+import { ga, skeleton } from '@cc/lib/utils';
+import { Article } from '@cc/interfaces/article';
 
 const BlogCard = ({
   loading,

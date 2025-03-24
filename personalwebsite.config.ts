@@ -2,11 +2,6 @@ const CONFIG = {
   github: {
     username: 'mathewlewallen',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/mathewlewallen/mathewlewallen.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/mathewlewallen/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
@@ -90,7 +85,6 @@ const CONFIG = {
     'Docker',
     'HTML',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
@@ -229,13 +223,13 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/mathewlewallen/gitprofile"
+  footer: `Made by <a 
+      class="text-primary" href="https://github.com/mathewlewallen/personalwebsite"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >Mathew Lewallen</a> with ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;

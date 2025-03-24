@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import { SanitizedExperience } from '../../interfaces/sanitized-config';
-import { skeleton } from '../../utils';
+import { SanitizedExperience } from '@cc/interfaces/sanitized-config';
+import { skeleton } from '@cc/lib/utils';
 
 const ListItem = ({
   time,

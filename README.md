@@ -6,15 +6,15 @@
   <h4 align="center">Easy to use automatic portfolio builder for every GitHub user!</h4>
 
   <p align="center">
-    <a href="https://codeclimate.com/github/mathewlewallen/gitprofile/maintainability"><img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" /></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/actions/workflows/test-deploy.yml"><img src="https://github.com/mathewlewallen/gitprofile/actions/workflows/test-deploy.yml/badge.svg" /></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/issues"><img src="https://img.shields.io/github/issues/mathewlewallen/gitprofile"/></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/stargazers"><img src="https://img.shields.io/github/stars/mathewlewallen/gitprofile"/></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/network/members"><img src="https://img.shields.io/github/forks/mathewlewallen/gitprofile"/></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/commits/main"><img src="https://img.shields.io/github/last-commit/mathewlewallen/gitprofile/main"/></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/></a>
-    <a href="https://github.com/mathewlewallen/gitprofile/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mathewlewallen/gitprofile"/></a>
-    <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fmathewlewallen%2Fgitprofile"><picture>
+    <a href="https://codeclimate.com/github/mathewlewallen/personalwebsite/maintainability"><img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" /></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/actions/workflows/test-deploy.yml"><img src="https://github.com/mathewlewallen/personalwebsite/actions/workflows/test-deploy.yml/badge.svg" /></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/issues"><img src="https://img.shields.io/github/issues/mathewlewallen/personalwebsite"/></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/stargazers"><img src="https://img.shields.io/github/stars/mathewlewallen/personalwebsite"/></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/network/members"><img src="https://img.shields.io/github/forks/mathewlewallen/personalwebsite"/></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/commits/main"><img src="https://img.shields.io/github/last-commit/mathewlewallen/personalwebsite/main"/></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/></a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/blob/main/LICENSE"><img src="https://img.shields.io/github/license/mathewlewallen/personalwebsite"/></a>
+    <a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fmathewlewallen%2Fpersonalwebsite"><picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_20.svg">
         <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_20.svg">
         <img height="20" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_20.svg">
@@ -22,23 +22,23 @@
   </p>
 
   <p align="center">
-    <a href="https://mathewlewallen.github.io/gitprofile">View Demo</a>
+    <a href="https://mathewlewallen.github.io/personalwebsite">View Demo</a>
     ·
-    <a href="https://github.com/mathewlewallen/gitprofile/issues">Report Bug</a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/issues">Report Bug</a>
     ·
-    <a href="https://github.com/mathewlewallen/gitprofile/discussions">Request Feature</a>
+    <a href="https://github.com/mathewlewallen/personalwebsite/discussions">Request Feature</a>
   </p>
 </p>
 
 <p align="center">
-  <a href="https://mathewlewallen.github.io/gitprofile">
-    <img src="https://github.com/mathewlewallen/gitprofile/assets/45073703/eb6c38a4-ac92-4006-869b-e4e24f6f5cf6" alt="Preview" width="60%"/>
+  <a href="https://mathewlewallen.github.io/personalwebsite">
+    <img src="https://github.com/mathewlewallen/personalwebsite/assets/45073703/eb6c38a4-ac92-4006-869b-e4e24f6f5cf6" alt="Preview" width="60%"/>
   </a>
   <br/>
-  <a href="#mathewlewallen"><img src="https://github.com/mathewlewallen/gitprofile/assets/45073703/4d2ccd45-e566-4743-bf61-cadc03ece54c" width="50%" alt="Shadow"/></a>
+  <a href="#mathewlewallen"><img src="https://github.com/mathewlewallen/personalwebsite/assets/45073703/4d2ccd45-e566-4743-bf61-cadc03ece54c" width="50%" alt="Shadow"/></a>
 </p>
 
-**GitProfile** is a powerful portfolio builder that allows you to create a stunning and personalized portfolio site in minutes, even if you have no coding experience. Simply provide your GitHub username, and GitProfile will automatically generate a portfolio. Best of all, you can easily deploy your portfolio to GitHub Pages with just a few clicks, making it accessible to the world in no time.
+**personalwebsite** is a powerful portfolio builder that allows you to create a stunning and personalized portfolio site in minutes, even if you have no coding experience. Simply provide your GitHub username, and personalwebsite will automatically generate a portfolio. Best of all, you can easily deploy your portfolio to GitHub Pages with just a few clicks, making it accessible to the world in no time.
 
 **Features:**
 
@@ -47,7 +47,6 @@
 ✓ [Google Analytics](#google-analytics)  
 ✓ [Hotjar](#hotjar)  
 ✓ [SEO](#seo)  
-✓ [PWA](#pwa)  
 ✓ [Avatar and Bio](#avatar-and-bio)  
 ✓ [Social Links](#social-links)  
 ✓ [Skill Section](#skills)  
@@ -58,15 +57,15 @@
 ✓ [Publication Section](#publications)  
 ✓ [Blog Posts Section](#blog-posts)
 
-To view a live example, **[click here](https://mathewlewallen.github.io/gitprofile)**.
+To view a live example, **[click here](https://mathewlewallen.github.io/personalwebsite)**.
 
 <p align="center">
-  <img src="https://github.com/mathewlewallen/gitprofile/assets/45073703/406e8368-415a-42ef-89c5-d43cc8bbeb19" alt="Themes">
+  <img src="https://github.com/mathewlewallen/personalwebsite/assets/45073703/406e8368-415a-42ef-89c5-d43cc8bbeb19" alt="Themes">
 </p>
 
 ## 🛠 Installation & Setup
 
-There are two ways to use **GitProfile**. Use any.
+There are two ways to use **personalwebsite**. Use any.
 
 - [Forking this repo _(recommended)_](#forking-this-repo)
 - [Setting up locally](#setting-up-locally)
@@ -75,56 +74,56 @@ There are two ways to use **GitProfile**. Use any.
 
 These instructions will get you a copy of the project and deploy your portfolio online using GitHub Pages!
 
-- **Fork repo:** Click [here](https://github.com/mathewlewallen/gitprofile/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
+- **Fork repo:** Click [here](https://github.com/mathewlewallen/personalwebsite/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
 - **Rename repo:**
   - If you want to host your portfolio at `https://<USERNAME>.github.io`, rename your forked repository to `username.github.io` in GitHub, where `username` is your GitHub username (or organization name).
   - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO_NAME>` (e.g. `portfolio`) in GitHub.
 - **Enable workflows:** Go to your repo's **Actions** tab and enable workflows.
 
-  ![Workflows](https://github.com/mathewlewallen/gitprofile/assets/45073703/7e82f7d4-900c-4cb9-83f9-bcaa1ca2b910)
+  ![Workflows](https://github.com/mathewlewallen/personalwebsite/assets/45073703/7e82f7d4-900c-4cb9-83f9-bcaa1ca2b910)
 
-- **Base Value:** Open `gitprofile.config.ts`, and change `base`'s value.
+- **Base Value:** Open `personalwebsite.config.ts`, and change `base`'s value.
 
   - If you are deploying to `https://<USERNAME>.github.io`, set `base` to `'/'`.
 
   - If you are deploying to `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), then set `base` to `'/<REPO_NAME>/'` (e.g. `'/portfolio/'`).
 
   ```ts
-  // gitprofile.config.ts
+  // personalwebsite.config.ts
   {
     base: '/',
     // ...
   }
   ```
 
-- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/mathewlewallen/gitprofile/actions) tab.
+- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/mathewlewallen/personalwebsite/actions) tab.
 
-Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `gitprofile.config.ts` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
+Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `personalwebsite.config.ts` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
 
 If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
 
-As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
+As this is a Nextjs project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://nextjs.org/docs) for a detailed deployment guide to other services.
 
 > [!NOTE]
 > If you are going to deploy using **Vercel**, remember to set the `base` as `/`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 {
   base: '/',
   // ...
 }
 ```
 
-[**Not working?**](https://github.com/mathewlewallen/gitprofile/discussions/548)
+[**Not working?**](https://github.com/mathewlewallen/personalwebsite/discussions/548)
 
 ### Setting up locally
 
 - Clone the project and change directory.
 
   ```shell
-  git clone https://github.com/mathewlewallen/gitprofile.git
-  cd gitprofile
+  git clone https://github.com/mathewlewallen/personalwebsite.git
+  cd personalwebsite
   ```
 
 - Install dependencies.
@@ -139,18 +138,18 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
   npm run dev
   ```
 
-- Finally, visit `http://localhost:5173/gitprofile/` from your browser.
+- Finally, visit `http://localhost:5173/personalwebsite/` from your browser.
 
 > Alternatively, you can set up and run the project using Docker with **[Vail](https://github.com/mathewlewallen/vail)**, a powerful tool for local development of JavaScript/TypeScript Apps.
 
 ## 🎨 Customization
 
-All the magic happens in the file `gitprofile.config.ts`. Open it and modify it according to your preference.
+All the magic happens in the file `personalwebsite.config.ts`. Open it and modify it according to your preference.
 
 You can leave most of the sections empty if you don't want to display them on your portfolio.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 
 const CONFIG = {
   github: {
@@ -161,7 +160,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/mathewlewallen/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/personalwebsite/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -177,7 +176,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['mathewlewallen/gitprofile', 'mathewlewallen/pandora'], // List of repository names to display. example: ['mathewlewallen/my-project1', 'mathewlewallen/my-project2']
+        projects: ['mathewlewallen/personalwebsite', 'mathewlewallen/pandora'], // List of repository names to display. example: ['mathewlewallen/my-project1', 'mathewlewallen/my-project2']
       },
     },
     external: {
@@ -387,12 +386,12 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/mathewlewallen/gitprofile"
+      class="text-primary" href="https://github.com/mathewlewallen/personalwebsite"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >personalwebsite</a> and ❤️`,
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;
@@ -405,7 +404,7 @@ There are 33 themes available that can be selected from the dropdown.
 The default theme can be specified.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   themeConfig: {
@@ -416,13 +415,13 @@ const CONFIG = {
 ```
 
 <p align="center">
-  <img src="https://github.com/mathewlewallen/gitprofile/assets/45073703/91a2d9e6-67e5-47b4-9752-1881ac0f907f" alt="Theme Dropdown" width="50%">
+  <img src="https://github.com/mathewlewallen/personalwebsite/assets/45073703/91a2d9e6-67e5-47b4-9752-1881ac0f907f" alt="Theme Dropdown" width="50%">
 </p>
 
 You can create your own custom theme by modifying these values. Theme `procyon` will have the custom styles.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   /**
    * Defines the custom theme colors and styles for the application.
@@ -451,10 +450,10 @@ const CONFIG = {
 
 ### Google Analytics
 
-**GitProfile** supports both GA3 and GA4. If you do not want to use Google Analytics, keep the `id` empty.
+**personalwebsite** supports both GA3 and GA4. If you do not want to use Google Analytics, keep the `id` empty.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   googleAnalytics: {
@@ -467,10 +466,10 @@ Besides tracking visitors, it will track `click events` on projects and blog pos
 
 ### Hotjar
 
-**GitProfile** supports [hotjar](https://www.hotjar.com) to track visitor interaction and behavior. If you do not want to use Hotjar, keep the `id` empty.
+**personalwebsite** supports [hotjar](https://www.hotjar.com) to track visitor interaction and behavior. If you do not want to use Hotjar, keep the `id` empty.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   hotjar: {
@@ -485,7 +484,7 @@ const CONFIG = {
 You can customize the meta tags for SEO in `seo`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   seo: {
@@ -498,9 +497,9 @@ const CONFIG = {
 
 ### PWA
 
-GitProfile is PWA enabled. The site can be installed as a Progressive Web App. To turn it off, set `enablePWA` to `false`.
+personalwebsite is PWA disabled. However, this site can be installed as a Progressive Web App. To turn it on, set `enablePWA` to `true` and update config.
 
-![PWA](https://github.com/mathewlewallen/gitprofile/assets/45073703/9dc7cc5c-4262-4445-a7a5-1e3566ef43fa)
+![PWA](https://github.com/mathewlewallen/personalwebsite/assets/45073703/9dc7cc5c-4262-4445-a7a5-1e3566ef43fa)
 
 ### Avatar and Bio
 
@@ -511,7 +510,7 @@ Your avatar and bio will be fetched from GitHub automatically.
 You can link your social media services you're using, including LinkedIn, X, Mastodon, ResearchGate, Facebook, Instagram, Reddit, Threads, YouTube, Udemy, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   social: {
@@ -544,7 +543,7 @@ const CONFIG = {
 To showcase your skills provide them here.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   skills: ['JavaScript', 'React.js'],
@@ -558,7 +557,7 @@ Empty array will hide the skills section.
 Provide your job history in `experiences`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   experiences: [
@@ -587,7 +586,7 @@ Empty array will hide the experience section.
 Provide your education history in `educations`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   educations: [
@@ -614,7 +613,7 @@ Empty array will hide the education section.
 Provide your industry certifications in `certifications`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   certifications: [
@@ -638,7 +637,7 @@ Empty array will hide the certifications section.
 - **Manual Mode:** Choose specific repositories to highlight.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   projects: {
@@ -656,7 +655,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['mathewlewallen/gitprofile', 'mathewlewallen/pandora'], // List of repository names to display. example: ['mathewlewallen/my-project1', 'mathewlewallen/my-project2']
+        projects: ['mathewlewallen/personalwebsite', 'mathewlewallen/pandora'], // List of repository names to display. example: ['mathewlewallen/my-project1', 'mathewlewallen/my-project2']
       },
     },
   },
@@ -669,7 +668,7 @@ const CONFIG = {
 - **Control over Content:** Provide custom titles, descriptions, images, and links for each external project.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   projects: {
@@ -704,7 +703,7 @@ const CONFIG = {
 Provide your academic publishing in `publications`.
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   publications: [
@@ -728,7 +727,7 @@ Empty array will hide the publications section.
 If you have [medium](https://medium.com) or [dev](https://dev.to) account, you can show your recent blog posts in here just by providing your medium/dev username. You can limit how many posts to display (Max is `10`).
 
 ```ts
-// gitprofile.config.ts
+// personalwebsite.config.ts
 const CONFIG = {
   // ...
   blog: {
@@ -739,21 +738,21 @@ const CONFIG = {
 };
 ```
 
-![Blog](https://github.com/mathewlewallen/gitprofile/assets/45073703/410124f2-a3c2-48f1-8ec8-0c6fae74ae3d)
+![Blog](https://github.com/mathewlewallen/personalwebsite/assets/45073703/410124f2-a3c2-48f1-8ec8-0c6fae74ae3d)
 
 The posts are fetched by [blog.js](https://github.com/mathewlewallen/blog.js).
 
 ## 💖 Support
 
 <p>You can show your support by starring this project. ★</p>
-<a href="https://github.com/mathewlewallen/gitprofile/stargazers">
-  <img src="https://img.shields.io/github/stars/mathewlewallen/gitprofile?style=social" alt="Github Star">
+<a href="https://github.com/mathewlewallen/personalwebsite/stargazers">
+  <img src="https://img.shields.io/github/stars/mathewlewallen/personalwebsite?style=social" alt="Github Star">
 </a>
 
 ## 💡 Contribute
 
-To contribute, see the [Contributing guide](https://github.com/mathewlewallen/gitprofile/blob/main/CONTRIBUTING.md).
+To contribute, see the [Contributing guide](https://github.com/mathewlewallen/personalwebsite/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
 
-[MIT](https://github.com/mathewlewallen/gitprofile/blob/main/LICENSE)
+[MIT](https://github.com/mathewlewallen/personalwebsite/blob/main/LICENSE)

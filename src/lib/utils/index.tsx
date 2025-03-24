@@ -1,13 +1,13 @@
 import { hotjar } from 'react-hotjar';
-import { LOCAL_STORAGE_KEY_NAME } from '../constants';
-import { DEFAULT_CUSTOM_THEME } from '../constants/default-custom-theme';
-import { DEFAULT_THEMES } from '../constants/default-themes';
-import colors from '../data/colors.json';
+import { LOCAL_STORAGE_KEY_NAME } from '@cc/constants';
+import { DEFAULT_CUSTOM_THEME } from '@cc/constants/default-custom-theme';
+import { DEFAULT_THEMES } from '@cc/constants/default-themes';
+import colors from '@cc/data/colors.json';
 import {
   SanitizedConfig,
   SanitizedHotjar,
   SanitizedThemeConfig,
-} from '../interfaces/sanitized-config';
+} from '@cc/interfaces/sanitized-config';
 
 export const isDarkishTheme = (appliedTheme: string): boolean => {
   return ['dark', 'halloween', 'forest', 'black', 'luxury', 'dracula'].includes(
@@ -194,7 +194,7 @@ export const skeleton = ({
   style?: React.CSSProperties;
   shape?: string;
   className?: string | null;
-}): JSX.Element => {
+}) => {
   const classNames = ['bg-base-300', 'animate-pulse', shape];
   if (className) {
     classNames.push(className);

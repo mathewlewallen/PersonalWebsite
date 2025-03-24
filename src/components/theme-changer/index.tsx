@@ -1,7 +1,7 @@
 import { AiOutlineControl } from 'react-icons/ai';
-import { SanitizedThemeConfig } from '../../interfaces/sanitized-config';
-import { LOCAL_STORAGE_KEY_NAME } from '../../constants';
-import { skeleton } from '../../utils';
+import { SanitizedThemeConfig } from '@cc/interfaces/sanitized-config';
+import { LOCAL_STORAGE_KEY_NAME } from '@cc/constants';
+import { skeleton } from '@cc/lib/utils';
 import { MouseEvent } from 'react';
 
 /**

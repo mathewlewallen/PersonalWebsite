@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
-import { SanitizedPublication } from '../../interfaces/sanitized-config';
-import { skeleton } from '../../utils';
+import { SanitizedPublication } from '@cc/interfaces/sanitized-config';
+import { skeleton } from '@cc/lib/utils';
 
 const PublicationCard = ({
   publications,

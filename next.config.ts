@@ -5,7 +5,6 @@ import { env } from '@cc/env';
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
-  swcMinify: true,
   distDir: 'dist',
   basePath: env.NEXT_PUBLIC_BASE_PATH,
   experimental: {

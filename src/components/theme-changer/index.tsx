@@ -25,7 +25,7 @@ const ThemeChanger = ({
   loading: boolean;
   themeConfig: SanitizedThemeConfig;
 }) => {
-  const [mounted, setMounted] = useState(false);
+  const [setMounted] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {

@@ -25,13 +25,15 @@ const ThemeChanger = ({
   loading: boolean;
   themeConfig: SanitizedThemeConfig;
 }) => {
-  const [setMounted] = useState(false);
+ const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setMounted(true);
-    }
-  }, []);
+useEffect(() => {
+  if (typeof window !== 'undefined') {
+    setMounted(true);
+  }
+}, []);
+
+if (!mounted) return null;
 
   const cycleTheme = () => {
     const order = ['light', 'dark', 'system'];

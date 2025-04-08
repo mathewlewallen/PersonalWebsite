@@ -9,7 +9,7 @@ export const env = createEnv({
     VERCEL_PROJECT_PRODUCTION_URL: z.string().min(1),
   },
   client: {
-    NEXT_PUBLIC_BASE_PATH: z.string(),
+    NEXT_PUBLIC_BASE_PATH: z.string().optional(),
   },
   runtimeEnv: {
     SITE_TITLE: process.env.SITE_TITLE,

@@ -6,10 +6,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   trailingSlash: false,
   distDir: 'dist',
-  basePath: env.NEXT_PUBLIC_BASE_PATH,
-  experimental: {
-    typedRoutes: true,
-  },
   images: {
     formats: ['image/webp'],
     minimumCacheTTL: 60,

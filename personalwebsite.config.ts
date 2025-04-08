@@ -34,7 +34,7 @@ const CONFIG = {
         {
           title: 'Project Name',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Still working on this page.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -113,21 +113,27 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Liberty University',
+      degree: 'PhD Aviation',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'American Military University',
+      degree: 'MS Aeronaspace Studies',
+      from: '2022',
+      to: '2023',
+    },
+{
+      institution: 'Embry-Riddle Aero University',
+      degree: 'BS Aeronautics',
+      from: '2019',
+      to: '2022',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'A Proposal for a New System for Air Traffic to Accomodate Spacecraft Launches',
       conferenceName: '',
       journalName: 'Journal Name',
       authors: 'John Doe, Jane Smith',

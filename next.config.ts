@@ -1,6 +1,5 @@
 import type { NextConfig } from 'next';
 import { createSecureHeaders } from 'next-secure-headers';
-import { env } from '@cc/env';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,

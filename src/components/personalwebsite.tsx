@@ -2,29 +2,25 @@ import { useCallback, useEffect, useState } from 'react';
 import axios, { AxiosError } from 'axios';
 import { formatDistance } from 'date-fns';
 import {
-  CustomError,
   GENERIC_ERROR,
   INVALID_CONFIG_ERROR,
   INVALID_GITHUB_USERNAME_ERROR,
   setTooManyRequestError,
-} from '@cc/constants/errors';
+  DEFAULT_THEMES,
+  BG_COLOR
+} from '@ml/constants';
 import Head from 'next/head';
-import '../app/globals.css';
-import { getInitialTheme, getSanitizedConfig, setupHotjar } from '@cc/lib/utils';
-import { SanitizedConfig } from '@cc/interfaces/sanitized-config';
+import '@ml/app/globals.css';
+import { getInitialTheme, getSanitizedConfig, setupHotjar } from '@ml/lib/utils';
+import { SanitizedConfig, Profile, GithubProject, CustomError } from '@ml/types';
 import ErrorPage from './error-page';
 import HeadTagEditor from './head-tag-editor';
-import { DEFAULT_THEMES } from '@cc/constants/default-themes';
-import ThemeChanger from './theme-changer';
-import { BG_COLOR } from '@cc/constants';
 import AvatarCard from './avatar-card';
-import { Profile } from '@cc/interfaces/profile';
 import DetailsCard from './details-card';
 import SkillCard from './skill-card';
 import ExperienceCard from './experience-card';
 import EducationCard from './education-card';
 import CertificationCard from './certification-card';
-import { GithubProject } from '@cc/interfaces/github-project';
 import GithubProjectCard from './github-project-card';
 import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
@@ -136,7 +132,11 @@ const personalwebsite = ({ config }: { config: Config }) => {
   }, [sanitizedConfig, loadData]);
 
   useEffect(() => {
-    theme && document.documentElement.setAttribute('data-theme', theme);
+    if (theme === 'system') {
+      document.documentElement.removeAttribute('data-theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
   }, [theme]);
 
   const handleError = (error: AxiosError | Error): void => {
@@ -196,14 +196,6 @@ const personalwebsite = ({ config }: { config: Config }) => {
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
                 <div className="col-span-1">
                   <div className="grid grid-cols-1 gap-6">
-                    {!sanitizedConfig.themeConfig.disableSwitch && (
-                      <ThemeChanger
-                        theme={theme}
-                        setTheme={setTheme}
-                        loading={loading}
-                        themeConfig={sanitizedConfig.themeConfig}
-                      />
-                    )}
                     <AvatarCard
                       profile={profile}
                       loading={loading}

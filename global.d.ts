@@ -1,11 +1,11 @@
-interface Github {
+type Github = {
   /**
    * GitHub org/user name
    */
   username: string;
-}
+};
 
-interface GitHubProjects {
+type GitHubProjects = {
   /**
    * Display GitHub projects?
    */
@@ -64,9 +64,9 @@ interface GitHubProjects {
      */
     projects?: Array<string>;
   };
-}
+};
 
-interface ExternalProjects {
+type ExternalProjects = {
   /**
    * Header
    */
@@ -81,15 +81,15 @@ interface ExternalProjects {
     imageUrl?: string;
     link: string;
   }[];
-}
+};
 
-interface Projects {
+type Projects = {
   github?: GitHubProjects;
 
   external?: ExternalProjects;
-}
+};
 
-interface SEO {
+type SEO = {
   /**
    * Meta title
    */
@@ -104,9 +104,9 @@ interface SEO {
    * Meta image
    */
   imageURL?: string;
-}
+};
 
-interface Social {
+type Social = {
   /**
    * LinkedIn
    */
@@ -206,54 +206,54 @@ interface Social {
    * Email
    */
   email?: string;
-}
+};
 
-interface Resume {
+type Resume = {
   /**
    * Resume file url
    */
   fileUrl?: string;
-}
+};
 
-interface Experience {
+type Experience = {
   company?: string;
   position?: string;
   from: string;
   to: string;
   companyLink?: string;
-}
+};
 
-interface Certification {
+type Certification = {
   body?: string;
   name?: string;
   year?: string;
   link?: string;
-}
+};
 
-interface Education {
+type Education = {
   institution?: string;
   degree?: string;
   from: string;
   to: string;
-}
+};
 
-interface Publication {
+type Publication = {
   title: string;
   conferenceName?: string;
   journalName?: string;
   authors?: string;
   link?: string;
   description?: string;
-}
+};
 
-interface GoogleAnalytics {
+type GoogleAnalytics = {
   /**
    * GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
    */
   id?: string;
-}
+};
 
-interface Hotjar {
+type Hotjar = {
   /**
    * Hotjar id
    */
@@ -263,9 +263,9 @@ interface Hotjar {
    * Snippet Version
    */
   snippetVersion?: number;
-}
+};
 
-interface Blog {
+type Blog = {
   /**
    * medium | dev
    */
@@ -282,9 +282,9 @@ interface Blog {
    * Max is 10
    */
   limit?: number;
-}
+};
 
-interface CustomTheme {
+type CustomTheme = {
   /**
    * Primary color
    */
@@ -319,9 +319,9 @@ interface CustomTheme {
    * Border radius of rounded-btn
    */
   '--rounded-btn'?: string;
-}
+};
 
-interface ThemeConfig {
+type ThemeConfig = {
   /**
    * Default theme
    */
@@ -351,9 +351,9 @@ interface ThemeConfig {
    * Custom theme
    */
   customTheme?: CustomTheme;
-}
+};
 
-interface Config {
+type Config = {
   /**
    * GitHub config
    */
@@ -438,6 +438,6 @@ interface Config {
    * Enable PWA
    */
   enablePWA?: boolean;
-}
+};
 
 declare const CONFIG: Config;

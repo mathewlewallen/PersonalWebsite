@@ -17,7 +17,10 @@ const CONFIG = {
         },
       },
       manual: {
-        projects: ['mathewlewallen/cloudcontext', 'mathewlewallen/awesome-free-tools'], 
+        projects: [
+          'mathewlewallen/cloudcontext',
+          'mathewlewallen/awesome-free-tools',
+        ],
       },
     },
     external: {
@@ -33,8 +36,7 @@ const CONFIG = {
         },
         {
           title: 'Project Name',
-          description:
-            'Still working on this page.',
+          description: 'Still working on this page.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -70,8 +72,7 @@ const CONFIG = {
     email: 'mathewlewallen@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.mathewlewallen.com/resume.pdf', // TODO: Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://www.mathewlewallen.com/resume.pdf', // TODO: Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Typescript',
@@ -124,7 +125,7 @@ const CONFIG = {
       from: '2022',
       to: '2023',
     },
-{
+    {
       institution: 'Embry-Riddle Aero University',
       degree: 'BS Aeronautics',
       from: '2019',
@@ -133,7 +134,8 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'A Proposal for a New System for Air Traffic to Accomodate Spacecraft Launches',
+      title:
+        'A Proposal for a New System for Air Traffic to Accomodate Spacecraft Launches',
       conferenceName: '',
       journalName: 'Journal Name',
       authors: 'John Doe, Jane Smith',
@@ -180,10 +182,7 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'nord',
-      'procyon',
-    ],
+    themes: ['light', 'dark'],
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
